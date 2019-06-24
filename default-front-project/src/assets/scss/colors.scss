@@ -1,0 +1,50 @@
+$turquoise: #02F0E4;
+$yellow: #FFF581;
+$purple: #83037d;
+$raspberry: #FF0062;
+$gunmetal: #2F353A;
+$lightgray: #F4F4F4;
+$gray: #d5d7d8;
+
+.turquoise{
+	color: $turquoise
+}
+.turquoise-bg{
+	background-color: $turquoise
+}
+.yellow{
+	color: $yellow
+}
+.yellow-bg{
+	background-color: $yellow
+}
+.purple{
+	color: $purple !important;
+}
+.purple-bg{
+	background-color: $purple !important;
+}
+.raspberry{
+	color: $raspberry
+}
+.raspberry-bg{
+	background-color: $raspberry
+}
+.gunmetal{
+	color: $gunmetal;
+}
+.gunmetal-bg{
+	background-color: $gunmetal !important;
+}
+.lightgray{
+	color: $lightgray
+}
+.lightgray-bg{
+	background-color: $lightgray
+}
+.gray{
+	color: $gray !important;
+}
+.gray-bg{
+	background-color: $gray !important;
+}

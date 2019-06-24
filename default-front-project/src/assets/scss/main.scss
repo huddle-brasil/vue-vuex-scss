@@ -1,0 +1,167 @@
+html{
+    font-family: 'Exo', sans-serif;
+}
+.wrapper{
+    padding: 0 32px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#app{
+
+    .hide{
+        display: none;
+    }
+    .btn{
+        color: #fff;
+        padding: 10px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 12px;
+        font-weight: 700;
+        border-radius: 4px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .btn.default{
+        background-color: #820081;
+    }
+    .btn.green{
+        background-color: #02F0E4;
+    }
+
+    .jumbotrom{
+        display: flex;
+        background-color: #ccc;
+        padding: 32px;
+        margin: 0 15px;
+
+        span{
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+    }
+
+    
+}
+.demo{
+    #default_container{
+        #header{
+            background-color: #820081;
+        }
+        .content{
+            background-color: #f0f3f5;
+        }
+        .simple_table{
+            thead{
+                background-color: #e6e6e6 !important;
+            }
+        }
+    }
+}
+
+.dev{
+    #default_container{
+        .content{
+            background-color: #1f2327;
+        }
+    }
+
+    #content_title{
+        color: #fff581;
+    }
+    .simple_table{
+        thead{
+            background-color: #2f353a !important;
+            color: #fff;
+        }
+        tbody{
+            color: #ccc;
+        }
+    }
+
+    .modal{
+        .modal_header{
+            background: #2f353a !important;
+            color: #fff581;
+        }
+        .modal_body{
+            .form_modal{
+                background-color: #1e2227 !important;
+                color: #fff;
+
+                .form{
+                    input, select{
+                        background-color: transparent;
+                        color: #fff;
+                    }
+                    input::placeholder, select::placeholder{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    #vinculateEnigmas{
+        .content{
+            border: 1px solid #fff;
+            color: #fff;
+
+            .form{
+                .form_line{
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+//Notebook adjstments
+@media screen and (max-width: 1280px) { 
+
+}
+@media screen and (max-width: 1024px) { 
+
+}
+
+//Mobile adjstments
+
+//iPad Plus
+@media screen and (max-width: 900px) { 
+    .container{
+        padding: 0
+    }
+}
+
+//iPad
+@media screen and (max-width: 768px) { 
+
+}
+
+//
+@media screen and (max-width: 500px) { 
+    .wrapper {
+        padding: 0 15px;
+    }
+}
+//iPhone 6
+@media screen and (max-width: 376px) { 
+
+}
+//iPhone 5/SE
+@media screen and (max-width: 320px) { 
+
+}
+
+
