@@ -1,11 +1,11 @@
-// import Main from './views/Main'
+import HelloWorld from './components/HelloWorld'
 
 export const routes = [
     {
         path: '/',
-        name: 'Main',
-        component: Main,
-        redirect: '/main',
+        name: 'HelloWorld',
+        component: HelloWorld,
+        // redirect: '/hello-world',
         // children: [
         //     {
         //         path: '/view',
